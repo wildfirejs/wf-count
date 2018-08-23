@@ -1,0 +1,38 @@
+{
+  "name": "wf-count",
+  "version": "1.0.0",
+  "description": "A script to get page wildfire comment count.",
+  "main": "./dist/wf-count.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildfirejs/wf-count.git"
+  },
+  "keywords": [
+    "wildfire",
+    "comment",
+    "plug-in",
+    "firebase",
+    "wilddog"
+  ],
+  "author": "Kang Cheng",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/wildfirejs/wf-count/issues"
+  },
+  "homepage": "https://github.com/wildfirejs/wf-count#readme",
+  "devDependencies": {
+    "compression-webpack-plugin": "^1.1.11",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
