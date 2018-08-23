@@ -1,2 +1,2 @@
-# wildfire-count
-A script to get page comment count.
+# wf-count
+A script to get page wildfire comment count.
